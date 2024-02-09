@@ -4,7 +4,7 @@ import { Topbar } from './Topbar'
 import AxiosService from '../utils/AxiosService'
 import ApiRoutes from '../utils/ApiRoutes'
 import { toast } from 'react-toastify'
-
+import { Audio } from 'react-loader-spinner'
 export const Change = () => {
   let params = useParams()
   let [flag,setFlag] = useState(false)
@@ -91,8 +91,7 @@ export const Change = () => {
 
   </div></>:<>
     <div className='container mt-5'>
-    <h5 className='h5 text-center'>Invalid 
-    Link</h5>
+    <Audio></Audio>
   </div></>
   }
   
