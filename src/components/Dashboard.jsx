@@ -39,7 +39,7 @@ export const Dashboard = () => {
     },[])
   return <>
    <Topbar></Topbar>
-   <div className='container mt-2 text-center col-6'>
+   <div className='container mt-2 text-center col-lg-6 col-sm-10'>
     <h3 className='h3  mb-1'>User profile</h3>
     <div className='card mt-5 shadow'>
       <div className='text-center'>
