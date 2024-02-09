@@ -9,7 +9,7 @@ Password rest flow:
 ->In case if you forgot your password ->click forget password in login page ->enter your emailid -> your will receive an email with passwordChange link-> click that link ->password reset form will be displayed ->fill the form and submit->you will be redirected to login page -> try logging in with the new password.
 
 
-Technologies use:
+Technologies used:
 
 FrontEnd:ReactJs
 
