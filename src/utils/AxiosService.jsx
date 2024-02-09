@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 let AxiosService = axios.create({
-    baseURL:"http://localhost:8000/",
+    // baseURL:"http://localhost:8000/",
+    baseURL:"https://password-rest-flow-l2fh.onrender.com/",
     headers:{
         "Content-Type":"application/json",
     }
